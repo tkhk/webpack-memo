@@ -1,0 +1,10 @@
+version: '3'
+services:
+  node:
+    image: node:12.13.1
+    command: yarn start
+    volumes:
+      - .:/opt/webpack-memo
+    ports:
+      - 3035:3035
+    working_dir: /opt/webpack-memo
