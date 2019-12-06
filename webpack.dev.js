@@ -13,13 +13,4 @@ module.exports = merge(common, {
     watchContentBase: true,
     open: true
   },
-  module: {
-    rules: [
-      {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader',
-      },
-    ],
-  }
 });

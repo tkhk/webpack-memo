@@ -8,3 +8,5 @@ services:
     ports:
       - 3035:3035
     working_dir: /opt/webpack-memo
+volumes:
+  .:
